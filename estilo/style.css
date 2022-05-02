@@ -36,6 +36,9 @@ header{
 header > p{
     padding-bottom: 50px;
 }
+section > p{
+    padding-bottom: 2em;
+}
 a{
     color: white;
     text-decoration: none;
@@ -45,13 +48,21 @@ a{
     text-decoration: underline;
 }
 section{
-    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-size: 5vw;
     font-family: var(--fonte3);
+    font-size: 3.5vh;
+}
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
 }
 .normal{
     background-color: white;
