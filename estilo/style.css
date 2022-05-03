@@ -38,7 +38,8 @@ header > p{
 }
 section > p{
     padding-bottom: 2em;
-}
+
+   }
 a{
     color: white;
     text-decoration: none;
@@ -55,17 +56,17 @@ section{
     font-size: 5vw;
     font-family: var(--fonte3);
     font-size: 3.5vh;
+    background-color: cover;
 }
 section#img01{
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
-    background-size: cover;
 
 }
 #img02{
     background-image: url(../imagens/background002.jpg);
     background-position: right center;
-    background-size: cover;
+
 }
 .normal{
     background-color: white;
